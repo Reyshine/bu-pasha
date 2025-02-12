@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--EXternal CSS-->
+    <link rel="stylesheet" href="style.css">
+    <title>CSS Text</title>
+    <!--Internal CSS-->
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+        }
+
+        h1, h2 {
+            color: #ff2a00;
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        article {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+        }
+
+        section {
+            margin-bottom: 20px;
+        }
+
+        p {
+            color: rgb(45, 26, 1);
+            margin-bottom: 10px;
+        }
+
+        ul, ol {
+            margin: 10px 0;
+            padding-left: 20px;
+        }
+
+        ul li, ol li {
+            margin-bottom: 5px;
+        }
+
+        strong {
+            color: #333;
+        }
+
+        em {
+            color: #555;
+            font-style: italic;
+        }
+
+        code {
+            background-color: #f1f1f1;
+            padding: 2px 4px;
+            border-radius: 4px;
+            font-family: 'Courier New', Courier, monospace;
+        }
+
+        /* Add more styles if needed */
+    </style>
+</head>
+<body>
+    <!--Inline css-->
+    <h1>Pengertian CSS</h1>
+    <h2>Biar lebih paham</h2>
+    <article>
+        <section>
+            <p>CSS (Cascading Style Sheet) merupakan sekumpulan kode yang digunakan
+            untuk mempercantik atau styling halaman web yang termuat pada komonen atau tag
+            yang membentuk sebuah web.</p>
+            <p><strong>Keterangan:</strong></p>
+            <ul>
+                <li><strong>Selector:</strong> merupakan nama komponen / objek yang akan diberikan style. Selector
+                ini dapat berupa nama tag pada HTML, id tag HTML, atau nama class pada
+                sebuah tag HTML.
+                    <ul>
+                        <li>Untuk penulisan selector dengan tag, dapat dituliskan dengan nama tag
+                        HTML secara langsung, contoh p, img, h1, dan lain-lain.</li>
+                        <li>Untuk penulisan selector dengan nama class, dapat dituliskan dengan diawali
+                        tanda titik (.) diikuti dengan nama classnya.</li>
+                        <li>Untuk penulisan selector dengan nama id, dapat dituliskan dengan diawali
+                        tanda pagar (#) diikuti dengan nama id-nya.</li>
+                    </ul>
+                    <em>Penulisan Selector → p atau .paragraf atau #paragraf</em>
+                </li>
+                <li><strong>Property:</strong> merupakan bagian dari selector yang akan kita ubah.</li>
+                <li><strong>Value:</strong> merupakan nilai dari property.</li>
+            </ul>
+        </section>
+        <section>
+            <p><strong>Terdapat 3 tata cara penulisan CSS pada HTML, yaitu:</strong></p>
+            <ol>
+                <li>Inline Style</li>
+                <li>Internal Style Sheet</li>
+                <li>External Style Sheet</li>
+            </ol>
+        </section>
+        <section>
+            <p><strong>CSS Background</strong> digunakan untuk menentukan background dari sebuah elemen.
+            Terdapat beberapa macam property pada CSS background yaitu sebagai berikut:</p>
+            <ul>
+                <li><code>background-color</code> → menentukan background dengan warna</li>
+                <li><code>background-image</code> → menentukan background dengan gambar</li>
+                <li><code>background-attachment</code> → menentukan background agar posisinya fix pada 
+                halaman web</li>
+                <li><code>background-position</code> → menentukan posisi background</li>
+                <li><code>background-repeat</code> → menentukan pengulangan background</li>
+            </ul>
+        </section>
+        <p>Sekian Terima Kasih</p>
+    </article>
+</body>
+</html>
